@@ -14,4 +14,10 @@ public class FunctionalTest {
 	public int getAge() {
 		return 19;
 	}
+	
+	public double getHeight() {
+		return 180.5;
+	}
+	
+	
 }
