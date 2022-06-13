@@ -3,6 +3,7 @@ package com.gittest.model.vo;
 public class Member {
 	private String name;
 	private int age;
+
 	
 	public Member() {
 		// TODO Auto-generated constructor stub
@@ -26,7 +27,9 @@ public class Member {
 
 	@Override
 	public String toString() {
+
 		return "name="+ name + "age=" + age;
+
 	}
 	
 	
