@@ -9,9 +9,13 @@ public class FunctionalTest {
 		return "goodee";
 	}
 	public void conflict() {
-		System.out.println("충돌충돌!");
+		System.out.println("�浹�浹!");
 	}
 	public int getAge() {
 		return 19;
+	}
+
+	public double getHeight() {
+		return 180.5;
 	}
 }
